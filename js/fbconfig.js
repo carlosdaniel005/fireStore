@@ -1,0 +1,28 @@
+const firebaseConfig = {
+
+    apiKey: "SUA_API_KEY",
+    authDomain: "SEU_DOMINIO.firebaseapp.com",
+    projectId: "SEU_ID_DE_PROJETO",
+    storageBucket: "SEU_STORAGE_BUCKET",
+    messagingSenderId: "SEU_SENDER_ID",
+    appId: "SEU_APP_ID"
+    
+            // apiKey: "AIzaSyC4IpXHz4wbwb5emaPFoVpz51gQvkDoF2U",
+            // authDomain: "etec22s2.firebaseapp.com",
+            // databaseURL: "https://etec22s2-default-rtdb.firebaseio.com",
+            // projectId: "etec22s2",
+            // storageBucket: "etec22s2.appspot.com",
+            // messagingSenderId: "429631871423",
+            // appId: "1:429631871423:web:8a91da2ae6bb57f88fa90a",
+            // measurementId: "G-LZS9HLK6PQ"
+    };
+  
+    // Initialize Firebase
+const app = firebase.initializeApp(firebaseConfig);
+  
+    // Firebase Database Reference and the child
+const dbRef = firebase.database().ref();
+const pessoaRef = dbRef.child('avaliacaoip');
+
+var storage = firebase.storage();
+  
