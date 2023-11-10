@@ -1,13 +1,12 @@
 const firebaseConfig = {
-
-    apiKey: "SUA_API_KEY",
-    authDomain: "SEU_DOMINIO.firebaseapp.com",
-    projectId: "SEU_ID_DE_PROJETO",
-    storageBucket: "SEU_STORAGE_BUCKET",
-    messagingSenderId: "SEU_SENDER_ID",
-    appId: "SEU_APP_ID"
-    
-    };
+  apiKey: "AIzaSyD59Nyc500CRdYmyM-hPXdGxT6nt1edcMk",
+  authDomain: "ionicfirebaseaapp.firebaseapp.com",
+  projectId: "ionicfirebaseaapp",
+  storageBucket: "ionicfirebaseaapp.appspot.com",
+  messagingSenderId: "19273559184",
+  appId: "1:19273559184:web:1d940af46ee6702262fc15",
+  measurementId: "G-3C4BZH0CQ2"
+};
   
     // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
